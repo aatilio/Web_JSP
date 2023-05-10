@@ -14,6 +14,7 @@
         <li><a href="servicios.jsp">Servicios</a></li>
         <li><a href="nosotros.jsp">Nosotros</a></li>
         <li><a href="contacto.jsp">Contacto</a></li>
+        <li><a href="registro.jsp">Registro</a></li>
     </ul>
 </nav>
 
