@@ -30,11 +30,11 @@
             telefono = request.getParameter("telefono");
             pass = request.getParameter("pass");
             
-out.print(nombre + "<br>"); 
-out.print(apellido+ "<br>");
-out.print(email+ "<br>");
-out.print(telefono+ "<br>");
-out.print(pass+ "<br>");
+            out.print(nombre + "<br>"); 
+            out.print(apellido+ "<br>");
+            out.print(email+ "<br>");
+            out.print(telefono+ "<br>");
+            out.print(pass+ "<br>");
 
             %>
         </main>
