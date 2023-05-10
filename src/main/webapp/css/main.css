@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.1s ease;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*Importan*/
+a {
+    text-decoration: none !important;
+    text-align: center;
+    /*padding: 10px;*/
+}
+
+li,
+ul {
+    list-style: none !important;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: var(--more-color);
+    padding: 10px;
+    margin: 10px;
+}
+
+
+h4,
+h5 {
+    text-align: center;
+    color: var(--more-color-hs);
+    padding: 10px;
+    margin: 5px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: grid;
+    /*para que el footer siempre este abajo de la pagina*/
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    width: 100%;
+}
+
+body a {
+    color: rgb(0, 0, 0);
+}
+
+
+main {
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+/*HEADER*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #00ddff;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*HOME*/
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    background-color: #f2f2f2;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.about-us a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.about-us a:hover {
+    background-color: #666;
+}
+
+.about-us-image {
+    flex: 0 0 50%;
+}
+
+.about-us-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Estilos para el banner */
+#banner {
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+
+#banner h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#banner p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+#banner a {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#banner a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos para los servicios */
+#services {
+    background-color: #eee;
+    padding: 50px;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#services ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#services li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#services a {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#services a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos para la sección "Acerca de Nosotros" */
+#about {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+#about a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#about a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+
+
+/*FOOTER*/
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-content {
+        flex-direction: column;
+    }
+}
