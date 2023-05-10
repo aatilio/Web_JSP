@@ -8,7 +8,7 @@
 
 <%! int numMaxEst = 40; %>
 <section id="banner">
-    <h1>Bienvenido a mi página de inicio</h1>
+    <h1>Bienvenido a mi página de inicio de sorian</h1>
     <p>Esta es una página de inicio básica en HTML y CSS para JSP</p>
     <a href="#">Leer más</a>
 </section>
