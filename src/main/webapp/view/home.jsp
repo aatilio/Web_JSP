@@ -6,11 +6,11 @@
 
 
 
-<%! int numMaxEst = 40; %>
+<%! int numMaxEst = 99; %>
 <section id="banner">
     <h1>Bienvenido a mi página de inicio de sorian</h1>
-    <p>Esta es una página de inicio básica en HTML y CSS para JSP</p>
-    <a href="#">Leer más</a>
+    <p>Esta es una pagina de inicio basica en HTML y CSS para JSP</p>
+    <a href="#">Leer mas</a>
 </section>
 
 <hr>
