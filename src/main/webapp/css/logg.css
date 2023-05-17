@@ -221,10 +221,10 @@ sup {
   font-weight: inherit;
   font-size: large;
   border-radius: 0.5rem;
-  outline: none;
+  /*outline: none;
   border: none;
   pointer-events: none;
-  cursor: not-allowed;
+  cursor: not-allowed;*/
   /*boton desabilitado*/
 }
 

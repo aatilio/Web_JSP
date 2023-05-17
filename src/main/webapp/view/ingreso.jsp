@@ -9,15 +9,15 @@
 
 <div class="conten">
     <div class="center-small">
-        <h1 class="form_title">Login</h1>
+        <h1 class="form_title">Inicio de sesión</h1>
         <form action="ingreso_pro.jsp" method="POST" class="form">
             <div class="form_group">
+                <label for="email" class=""><i class="bi bi-envelope-paper"></i><span>Email</span><sup>*</sup></label>
                 <input type="email" id="email" name="mail" class="form_input" placeholder=" " value="" required>
-                <label for="email" class="form_label"><i class="bi bi-envelope-paper"></i><span>Email</span><sup>*</sup></label>
             </div>
             <div class="form_group">
+                <label for="password" class=""><i class="bi bi-shield-lock"></i><span>Password</span><sup>*</sup></label>
                 <input type="password" id="txtPassword" name="pas" class="form_input" placeholder=" " required >
-                <label for="password" class="form_label form_label-pass"><i class="bi bi-shield-lock"></i><span>Password</span><sup>*</sup></label>
                 <div class="eyePass">
                     <i id="iconoEye" class="bi bi-eye"></i>
                 </div>
