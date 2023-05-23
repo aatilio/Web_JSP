@@ -27,9 +27,6 @@
             <div class="center-small">
                 <h1 class="form_title">PAGINA 2</h1>
                 <%
-                    
-                        
-                        
                         /*CREAMOS LA SESION*/
                         HttpSession sesion=request.getSession();
                         out.println("id de la sesion creada: \t" + sesion.getId());
@@ -39,11 +36,7 @@
                         out.println("<br> Nombre2: \t" + sesion.getAttribute("nombre"));
                         out.println("<br> Apellido2: \t" + sesion.getAttribute("apellido"));
                         out.println("<br> Correo2: \t" + sesion.getAttribute("correo"));
-                        out.println("<br> Telefono2: \t" + sesion.getAttribute("telefono"));
-                        
-                        
-                }
-
+                        out.println("<br> Telefono2: \t" + sesion.getAttribute("telefono"))
                 %>
             </div>
         </main>

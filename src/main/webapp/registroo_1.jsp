@@ -42,7 +42,7 @@
                         out.println("<br> Telefono1: \t" + sesion.getAttribute("telefono"));
                         
                         
-                }
+     
 
                 %>
             </div>
