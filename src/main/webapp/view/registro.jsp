@@ -11,7 +11,7 @@
 <div class="conten">
     <div class="center-small">
         <h1 class="form_title">Registro</h1>
-        <form action="#" method="GET" class="form">
+        <form action="registroo.jsp" method="GET" class="form">
             <div class="form_group">
                 <label for="nombre" class="form_labe"><i class="bi bi-person-lines-fill"></i><span>Nombre</span><sup>*</sup></label>
                 <input type="text" id="nombre" name="nombre" class="form_input" placeholder=" " autocomplete="off" required autofocus>
@@ -31,24 +31,7 @@
 
             <button type="submit" name="registrar" id="registrar" class="form_singup">Registrar</button>
         </form><br>
-        <%
-            if(request.getParameter("registrar")!=null){
-                String n,a,c,t;
-                n=request.getParameter("nombre");
-                a=request.getParameter("apellido");
-                c=request.getParameter("email");
-                t=request.getParameter("telefono");
-
-                Cliente cliente=new Cliente(n,a,c,t);
-                
-                out.println("<h5> Clientes desde los objetos </h5>");
-                out.println(cliente.getNombre() + "<br>");
-                out.println(cliente.getApellido()+ "<br>");
-                out.println(cliente.getCorreo()+ "<br>");
-                out.println(cliente.getTelefono()+ "<br>");
-            }
-        
-        %>
+       
 
         <!--<br><a class="crear-cuenta" href="?m=registro-empresa">Crear una cuenta de empresa</a>-->
     </div>
